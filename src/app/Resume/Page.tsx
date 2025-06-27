@@ -1,6 +1,5 @@
 "use client";
-import { PDFDownloadLink } from "@react-pdf/renderer";
-import MyDocument from "@/components/MyDocument";
+
 
 const Page: React.FC = () => {
   return (
