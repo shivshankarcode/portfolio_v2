@@ -1,3 +1,4 @@
+'use server';
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
@@ -11,7 +12,7 @@ export async function POST(req: Request) {
     const { data, error } = await resend.emails.send({
       from: 'onboarding@resend.dev',
       to: ['shivshankarmoney@gmail.com'],
-      subject: 'Message from Contact Form of AI-Driven TypingTest',
+      subject: 'Message from Contact Form of Portfolio',
       text: `Hello,\n\nYou got a new message from ${name} (${email}):\n\n${message}`,
       // react: EmailTemplate()
     });
@@ -21,7 +22,10 @@ export async function POST(req: Request) {
     }
 
     return NextResponse.json({ success: true, data });
-  } catch (err: any) {
-    return NextResponse.json({ error: err.message }, { status: 500 });
+  } catch (err: unknown) {
+    if (err instanceof Error) {
+      return NextResponse.json({ error: err.message }, { status: 500 });
+    }
+    return NextResponse.json({ error: 'Unknown error' }, { status: 500 });
   }
 }

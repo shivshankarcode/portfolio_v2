@@ -4,7 +4,6 @@ import Project from "./project/page";
 import Education from "./Education/Page";
 import TechStack from "./TechStack/Page";
 import Contact from "./contact/Page";
-import Footer from "./Footer/Page";
 import Resume from "./Resume/Page";
 export default function page() {
   return (
@@ -17,7 +16,6 @@ export default function page() {
       <Education />
       <Resume />
       <Contact/>
-      <Footer/>
       
   </div>
   );

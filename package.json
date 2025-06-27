@@ -11,11 +11,10 @@
   "dependencies": {
     "@react-pdf/renderer": "^4.3.0",
     "lucide-react": "^0.522.0",
-    "next": "15.2.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "next": "^15.3.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "react-hot-toast": "^2.5.2",
-    "react-pdf": "^9.2.1",
     "resend": "^4.6.0"
   },
   "devDependencies": {
@@ -24,9 +23,8 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@types/react-pdf": "^5.0.7",
     "eslint": "^9",
-    "eslint-config-next": "15.2.4",
+    "eslint-config-next": "^15.3.4",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

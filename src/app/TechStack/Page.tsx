@@ -22,15 +22,15 @@ const Page: React.FC = () => {
                   <path
                     fill="none"
                     stroke="#000001"
-                    stroke-miterlimit="10"
-                    stroke-width="3.3"
+                    strokeMiterlimit="10"
+                    strokeWidth="3.3"
                     d="M23.783,22.352v9.819 c0,3.764-4.38,4.022-6.283,0.802"
                   ></path>
                   <path
                     fill="none"
                     stroke="#000001"
-                    stroke-miterlimit="10"
-                    stroke-width="3.3"
+                    strokeMiterlimit="10"
+                    strokeWidth="3.3"
                     d="M34.69,25.343 c-1.739-2.727-5.674-2.345-5.84,0.558c-0.214,3.757,6.768,2.938,6.247,7.107c-0.365,2.92-4.874,3.858-7.193-0.065"
                   ></path>
                 </svg>
@@ -105,8 +105,8 @@ const Page: React.FC = () => {
                     y2="43.318"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0" stop-color="#5c65d6"></stop>
-                    <stop offset=".999" stop-color="#464eb0"></stop>
+                    <stop offset="0" stopColor="#5c65d6"></stop>
+                    <stop offset=".999" stopColor="#464eb0"></stop>
                   </linearGradient>
                   <path
                     fill="url(#P9ujQJgz7XN9Qbny9S64Ha_Pd2x9GWu9ovX_gr1)"
@@ -120,8 +120,8 @@ const Page: React.FC = () => {
                     y2="44.196"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0" stop-color="#5c65d6"></stop>
-                    <stop offset=".999" stop-color="#464eb0"></stop>
+                    <stop offset="0" stopColor="#5c65d6"></stop>
+                    <stop offset=".999" stopColor="#464eb0"></stop>
                   </linearGradient>
                   <path
                     fill="url(#P9ujQJgz7XN9Qbny9S64Hb_Pd2x9GWu9ovX_gr2)"
@@ -135,8 +135,8 @@ const Page: React.FC = () => {
                     y2="45.14"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0" stop-color="#5c65d6"></stop>
-                    <stop offset=".999" stop-color="#464eb0"></stop>
+                    <stop offset="0" stopColor="#5c65d6"></stop>
+                    <stop offset=".999" stopColor="#464eb0"></stop>
                   </linearGradient>
                   <path
                     fill="url(#P9ujQJgz7XN9Qbny9S64Hc_Pd2x9GWu9ovX_gr3)"
@@ -150,8 +150,8 @@ const Page: React.FC = () => {
                     y2="45.712"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0" stop-color="#5c65d6"></stop>
-                    <stop offset=".999" stop-color="#464eb0"></stop>
+                    <stop offset="0" stopColor="#5c65d6"></stop>
+                    <stop offset=".999" stopColor="#464eb0"></stop>
                   </linearGradient>
                   <path
                     fill="url(#P9ujQJgz7XN9Qbny9S64Hd_Pd2x9GWu9ovX_gr4)"
@@ -165,8 +165,8 @@ const Page: React.FC = () => {
                     y2="45.197"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0" stop-color="#5c65d6"></stop>
-                    <stop offset=".999" stop-color="#464eb0"></stop>
+                    <stop offset="0" stopColor="#5c65d6"></stop>
+                    <stop offset=".999" stopColor="#464eb0"></stop>
                   </linearGradient>
                   <path
                     fill="url(#P9ujQJgz7XN9Qbny9S64He_Pd2x9GWu9ovX_gr5)"
@@ -387,11 +387,11 @@ l30 23 -32 43 -31 43 53 58 c70 75 98 147 98 249 0 111 -28 178 -111 261 -94
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 511 511"
                 >
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                   <g
                     id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></g>
                   <g id="SVGRepo_iconCarrier">
                     {" "}
@@ -436,7 +436,7 @@ l30 23 -32 43 -31 43 53 58 c70 75 98 147 98 249 0 111 -28 178 -111 261 -94
                   x="0px"
                   y="0px"
                   viewBox="0 0 250 250"
-                  enable-background="new 0 0 250 250"
+                  enableBackground="new 0 0 250 250"
                 >
                   <g id="mongodb-leaf">
                     <path
@@ -533,11 +533,11 @@ l30 23 -32 43 -31 43 53 58 c70 75 98 147 98 249 0 111 -28 178 -111 261 -94
                   preserveAspectRatio="xMidYMid"
                   fill="#fff"
                 >
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                   <g
                     id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></g>
                   <g id="SVGRepo_iconCarrier">
                     {" "}
@@ -728,8 +728,8 @@ l30 23 -32 43 -31 43 53 58 c70 75 98 147 98 249 0 111 -28 178 -111 261 -94
                     y2="7.42"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0" stop-color="#29b6f6"></stop>
-                    <stop offset="1" stop-color="#13b2f6"></stop>
+                    <stop offset="0" stopColor="#29b6f6"></stop>
+                    <stop offset="1" stopColor="#13b2f6"></stop>
                   </linearGradient>
                   <path
                     fill="url(#HjBUFHyNtcsDcBgnZBZ2Sa_0OQR1FYCuA9f_gr1)"
@@ -743,14 +743,14 @@ l30 23 -32 43 -31 43 53 58 c70 75 98 147 98 249 0 111 -28 178 -111 261 -94
                     y2="7.173"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset=".115" stop-color="#0076bb"></stop>
-                    <stop offset=".257" stop-color="#0069b0"></stop>
-                    <stop offset=".28" stop-color="#0069b0"></stop>
-                    <stop offset=".424" stop-color="#0069b0"></stop>
-                    <stop offset=".491" stop-color="#0072b7"></stop>
-                    <stop offset=".577" stop-color="#0076bb"></stop>
-                    <stop offset=".795" stop-color="#0076bb"></stop>
-                    <stop offset="1" stop-color="#006eb9"></stop>
+                    <stop offset=".115" stopColor="#0076bb"></stop>
+                    <stop offset=".257" stopColor="#0069b0"></stop>
+                    <stop offset=".28" stopColor="#0069b0"></stop>
+                    <stop offset=".424" stopColor="#0069b0"></stop>
+                    <stop offset=".491" stopColor="#0072b7"></stop>
+                    <stop offset=".577" stopColor="#0076bb"></stop>
+                    <stop offset=".795" stopColor="#0076bb"></stop>
+                    <stop offset="1" stopColor="#006eb9"></stop>
                   </linearGradient>
                   <path
                     fill="url(#HjBUFHyNtcsDcBgnZBZ2Sb_0OQR1FYCuA9f_gr2)"
