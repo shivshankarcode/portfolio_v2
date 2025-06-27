@@ -1,15 +1,15 @@
 const Page: React.FC = () => {
   return (
-    <div className="bg-white text-black p-5">
+    <div className="bg-gray-50 text-black p-5">
       <div className="h-fit p-10 gap-10">
         <h2 className="text-5xl font-semibold text-center">Tech Stack</h2>
         <div className="text-start">
-          <p className="mt-4 text-lg">
+          <p className="mt-4 text-lg text-center">
             I am proficient in a variety of technologies, including:
           </p>
           <div className=" ">
-            <div className="grayscale hover:grayscale-0 transition-all duration-500 flex flex-wrap justify-center items-center gap-10 mt-10">
-              <div>
+            <div className=" grayscale hover:grayscale-0 transition-all duration-500 flex flex-wrap justify-center items-center gap-10 mt-10">
+              <div className="hover:scale-120 transition-transform duration-500 cursor-pointer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -35,7 +35,7 @@ const Page: React.FC = () => {
                   ></path>
                 </svg>
               </div>
-              <div>
+              <div className="hover:scale-120 transition-transform duration-500 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -61,7 +61,7 @@ const Page: React.FC = () => {
                   ></path>
                 </svg>
               </div>
-              <div>
+              <div className="hover:scale-120 transition-transform duration-500">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -80,7 +80,7 @@ const Page: React.FC = () => {
                   ></path>
                 </svg>
               </div>
-              <div>
+              <div className="hover:scale-120 transition-transform duration-500">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -174,7 +174,7 @@ const Page: React.FC = () => {
                   ></path>
                 </svg>
               </div>
-              <div>
+              <div className="hover:scale-120 transition-transform duration-500">
                 <svg
                   width="100"
                   height="100"
@@ -208,7 +208,7 @@ const Page: React.FC = () => {
                   />
                 </svg>
               </div>
-              <div>
+              <div className="hover:scale-120 transition-transform duration-500">
                 <svg
                   version="1.0"
                   xmlns="http://www.w3.org/2000/svg"
@@ -266,7 +266,7 @@ l30 23 -32 43 -31 43 53 58 c70 75 98 147 98 249 0 111 -28 178 -111 261 -94
               </div>
             </div>
             <div className="grayscale hover:grayscale-0 transition-all duration-500 flex flex-wrap justify-center items-center gap-10 mt-10">
-              <div>
+              <div className="hover:scale-120 transition-transform duration-500">
                 <svg
                   height="100"
                   viewBox="175.7 78 490.6 436.9"
@@ -279,7 +279,7 @@ l30 23 -32 43 -31 43 53 58 c70 75 98 147 98 249 0 111 -28 178 -111 261 -94
                   </g>
                 </svg>
               </div>
-              <div>
+              <div className="hover:scale-120 transition-transform duration-500">
                 <svg
                   height="100"
                   viewBox=".15 .13 799.7 479.69"
@@ -292,7 +292,7 @@ l30 23 -32 43 -31 43 53 58 c70 75 98 147 98 249 0 111 -28 178 -111 261 -94
                   />
                 </svg>
               </div>
-              <div>
+              <div className="hover:scale-120 transition-transform duration-500">
                 <svg
                   fill="none"
                   height="100"
@@ -314,7 +314,7 @@ l30 23 -32 43 -31 43 53 58 c70 75 98 147 98 249 0 111 -28 178 -111 261 -94
                   />
                 </svg>
               </div>
-              <div>
+              <div className="hover:scale-120 transition-transform duration-500">
                 <svg
                   fill="none"
                   height="100"
@@ -336,7 +336,7 @@ l30 23 -32 43 -31 43 53 58 c70 75 98 147 98 249 0 111 -28 178 -111 261 -94
                   />
                 </svg>
               </div>
-              <div>
+              <div className="hover:scale-120 transition-transform duration-500">
                 <svg
                   width="100"
                   height="100"
@@ -352,7 +352,7 @@ l30 23 -32 43 -31 43 53 58 c70 75 98 147 98 249 0 111 -28 178 -111 261 -94
               </div>
             </div>
             <div className="grayscale hover:grayscale-0 transition-all duration-500 flex flex-wrap justify-center items-center gap-10 mt-10">
-              <div>
+              <div className="hover:scale-120 transition-transform duration-500">
                 <svg
                   height="100"
                   viewBox="3.58301931 1.90851839 24.83198069 28.09192829"
@@ -365,7 +365,7 @@ l30 23 -32 43 -31 43 53 58 c70 75 98 147 98 249 0 111 -28 178 -111 261 -94
                   </g>
                 </svg>
               </div>
-              <div>
+              <div className="hover:scale-120 transition-transform duration-500">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -377,7 +377,7 @@ l30 23 -32 43 -31 43 53 58 c70 75 98 147 98 249 0 111 -28 178 -111 261 -94
                   <path d="M49.729 11h-.85c-1.051 0-2.041.49-2.68 1.324l-8.7 11.377-8.7-11.377C28.162 11.49 27.171 11 26.121 11h-.85l10.971 14.346L25.036 40h.85c1.051 0 2.041-.49 2.679-1.324L37.5 26.992l8.935 11.684C47.073 39.51 48.063 40 49.114 40h.85L38.758 25.346 49.729 11zM21.289 34.242c-2.554 3.881-7.582 5.87-12.389 4.116C4.671 36.815 2 32.611 2 28.109L2 27h12v0h11l0-4.134c0-6.505-4.818-12.2-11.295-12.809C6.273 9.358 0 15.21 0 22.5l0 5.573c0 5.371 3.215 10.364 8.269 12.183 6.603 2.376 13.548-1.17 15.896-7.256 0 0 0 0 0 0h-.638C22.616 33 21.789 33.481 21.289 34.242zM2 22.5C2 16.71 6.71 12 12.5 12S23 16.71 23 22.5V25H2V22.5z"></path>
                 </svg>
               </div>
-              <div>
+              <div className="hover:scale-120 transition-transform duration-500">
                 <svg
                   fill="#1bc537"
                   height="100px"
@@ -411,7 +411,7 @@ l30 23 -32 43 -31 43 53 58 c70 75 98 147 98 249 0 111 -28 178 -111 261 -94
                 </svg>
               </div>
               <div>
-                <div>
+                <div className="hover:scale-120 transition-transform duration-500">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="100"
@@ -427,7 +427,7 @@ l30 23 -32 43 -31 43 53 58 c70 75 98 147 98 249 0 111 -28 178 -111 261 -94
               </div>
             </div>
             <div className="grayscale hover:grayscale-0 transition-all duration-500 flex flex-wrap justify-center items-center gap-10 mt-10">
-              <div>
+              <div className="hover:scale-120 transition-transform duration-500">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   version="1.1"
@@ -457,7 +457,7 @@ l30 23 -32 43 -31 43 53 58 c70 75 98 147 98 249 0 111 -28 178 -111 261 -94
                   </g>
                 </svg>
               </div>
-              <div>
+              <div className="hover:scale-120 transition-transform duration-500">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -496,7 +496,7 @@ l30 23 -32 43 -31 43 53 58 c70 75 98 147 98 249 0 111 -28 178 -111 261 -94
                   ></path>
                 </svg>
               </div>
-              <div>
+              <div className="hover:scale-120 transition-transform duration-500">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -523,7 +523,7 @@ l30 23 -32 43 -31 43 53 58 c70 75 98 147 98 249 0 111 -28 178 -111 261 -94
                   ></path>
                 </svg>
               </div>
-              <div>
+              <div className="hover:scale-120 transition-transform duration-500">
                 <svg
                   width="99px"
                   height="99px"
@@ -711,7 +711,7 @@ l30 23 -32 43 -31 43 53 58 c70 75 98 147 98 249 0 111 -28 178 -111 261 -94
               </div>
             </div>
             <div className="grayscale hover:grayscale-0 transition-all duration-500 flex flex-wrap justify-center items-center gap-10 mt-10">
-              <div>
+              <div className="hover:scale-120 transition-transform duration-500">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -762,7 +762,7 @@ l30 23 -32 43 -31 43 53 58 c70 75 98 147 98 249 0 111 -28 178 -111 261 -94
                   ></path>
                 </svg>
               </div>
-              <div>
+              <div className="hover:scale-120 transition-transform duration-500">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"

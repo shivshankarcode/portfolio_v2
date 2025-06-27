@@ -1,5 +1,6 @@
 import Image from "next/image";
 import business_card from "../../public/business name generator.png";
+
 export default function ProjectCard() {
   return (
     <div>
