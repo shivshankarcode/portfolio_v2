@@ -2,11 +2,12 @@
 import intro_photo from "../../images/home_image.webp";
 import Image from "next/image";
 export default function Page() {
+  const intro="HI,i'm";
   return (
-    <div className="bg-gradient-to-br from-[#0d1738] to-[#504ba7]  text-white h-fit p-5 rounded-tr-2xl ">
+    <div className="bg-gradient-to-br from-[#0d1738] to-[#504ba7]  text-white h-fit p-5 rounded-tr-2xl  ">
       <div className="flex flex-wrap md:flex-row items-center justify-center h-fit md:p-10 p-10 pt-20 gap-10">
         <div className="text-start  ">
-          <h2 className="text-5xl font-semibold">HI, I`{`&apos`}m`</h2>
+          <h2 className="text-5xl font-semibold">{intro}</h2>
           <h1 className="text-6xl font-bold">Shivshankar Kumar</h1>
           <h3 className="mt-4 text-3xl">Software Engineer</h3>
           <p className="mt-4 text-lg">I build full-stack web application</p>

@@ -8,7 +8,7 @@ const Page: React.FC = () => {
             I am proficient in a variety of technologies, including:
           </p>
           <div className=" ">
-            <div className=" grayscale hover:grayscale-0 transition-all duration-500 flex flex-wrap justify-center items-center gap-10 mt-10">
+            <div className="grayscale hover:grayscale-0 transition-all duration-500 flex flex-wrap justify-center items-center gap-10 mt-10">
               <div className="hover:scale-120 transition-transform duration-500 cursor-pointer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
